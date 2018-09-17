@@ -30,6 +30,10 @@ module NewSigesf
     config.generators do |g|
       g.system_tests  nil
       g.view_specs    false
+      g.stylesheets   false
+      g.javascripts   false
+      g.helper        false
+      g.channel       assets: false
     end
   end
 end
