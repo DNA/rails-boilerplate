@@ -1,4 +1,4 @@
 plugins:
   postcss-import: {}
-  postcss-cssnext: {}
   tailwindcss: './frontend/tailwind.js'
+  postcss-cssnext: {}
